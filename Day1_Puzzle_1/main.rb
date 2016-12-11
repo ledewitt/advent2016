@@ -31,4 +31,7 @@ p "The distance to the Easter Bunny is #{distance}."
 
 p "The first repeat location is: #{movements.repeat_location}"
 
+distance = movements.repeat_location[0].abs + movements.repeat_location[1].abs
+p "The distance to the first repeat location is #{distance}"
+
 #puts "End"
