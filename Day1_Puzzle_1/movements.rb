@@ -69,8 +69,8 @@ class Movements
           @have_not_repeated_location = false
         end 
       end      
-    @list_of_locations.push([@location[0], @location[1]])
-    p "List of locations: #{@list_of_locations}"
+      @list_of_locations.push([@location[0], @location[1]])
+      p "List of locations: #{@list_of_locations}"
     end
 
   end
